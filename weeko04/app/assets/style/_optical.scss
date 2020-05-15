@@ -1,0 +1,270 @@
+.menu{
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    li{
+        
+        border: #DCDCDC 1px solid;
+        display: flex;
+        justify-content: center;
+        padding: 1.7% 6.0816%;
+    }
+    li a{
+        display: block;
+        font-size: 42px;
+        color: #000000;
+    }
+    li:hover{
+        border-bottom: red 8px solid;
+    }
+}
+
+@media (max-width: 1600px){
+    .menu{
+        ul{
+            justify-content: start;
+        }
+        li{
+            width: 33.333%;
+        }
+        li a{
+            font-size: 28px;
+        }
+    }
+}
+@media (max-width: 992px){
+.menu{
+    ul{
+        justify-content: start;
+    }
+    li{
+        width: 33.333%;
+    }
+    li a{
+        font-size: 28px;
+    }
+}
+@media (max-width: 900px){
+    .menu{
+        li{
+            width: 33.333%; 
+            padding: 1%;   
+        }
+        li a{
+            font-size: 14px;
+        }
+    }
+}
+}
+@media (max-width: 767px){
+    .menu{
+        li{
+            width: 33.333%; 
+            padding: 1%;   
+        }
+        li a{
+            font-size: 14px;
+        }
+    }
+}
+
+.banner-optical{
+    ul{
+        display: flex;
+        li{
+            width: 50%;
+            
+        }
+        li:first-child{
+            background-image: url(../images/combi/2@2x.png);
+            max-width: 948px;
+            height: 309px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 2%;
+        }
+        li:last-child{
+            background-image: url(../images/combi/11@2x.png);
+            max-width: 948px;
+            height: 309px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+    }  
+}
+@media (max-width: 992px){
+    .banner-optical{
+        ul{
+            li:first-child{
+                background-image: url(../images/combi/2-1.png);
+                margin-right: 0%;
+            }
+            li:last-child{
+                background-image: url(../images/combi/11-2.png);
+            }
+        
+        }
+    }
+}
+@media (max-width: 475px){
+    .banner-optical{
+        ul{
+            li:first-child{
+                background-image: url(../images/combi/2-320.png);
+                height: 144px;
+            }
+            li:last-child{
+                background-image: url(../images/combi/11-320.png);
+                height: 144px;
+            }
+        
+        }
+    }
+}
+.content{
+    padding-top: 7.333%;
+    padding-bottom: 13%;
+    h2{
+        font-size: 42px;
+    }
+    p{
+        font-size: 32px;
+    }
+}
+@media (max-width: 992px){
+    .content{
+        padding-right: 5.4%;
+        padding-left: 5.4%;
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 767px){
+    .content{
+        
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}
+.optical-card{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        width: 23%;
+        margin-right: 2%;
+        margin-bottom: 8.666%;
+    }
+    .card-header{
+        background-image: url(../images/combi/16.png);
+        height: 164px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card-body{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p:nth-child(2){
+            text-align: right;
+        }
+        p{
+            width: 50%;
+            font-size: 24px;
+        }
+    }
+    .color{
+        display: flex;
+        margin-right: auto;
+    }
+    .square-dark{
+        width: 24px;
+        height: 24px;
+        background-color:$page1-color;
+        margin-right: 8px;
+    }
+    .square-light{
+        width: 24px;
+        height: 24px;
+        background-color:$page1-color-light;
+    }
+}
+@media (max-width: 992px){
+    .optical-card{
+        li{
+            width: 48%;
+        }
+        li:nth-child(11),li:nth-child(12){
+            display: none;
+        }
+        .card-header{
+            background-image: url(../images/combi/16-1.png);
+        }
+    }
+}
+@media (max-width: 767px){
+    .optical-card{
+        li{
+            width: 100%;
+            margin-right: 0;
+        }
+        .mobile-none{
+            display: none;
+        }
+        .card-header{
+            background-image: url(../images/combi/16@2x.png);
+            height: 200px;
+        }
+        .card-body{
+            font-size: 16px;
+        }
+    }
+}
+.page{
+    display: flex;
+    justify-content: center;
+    .pagination{
+        width: 372px;
+        height: 48px;
+        display: flex;
+        li:first-child,li:last-child{
+            flex-grow: 2;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            border: solid 1px #555555;
+        }
+        li:nth-child(3){
+            background-color: #000000;
+        }
+        li a{
+            color: #555555;
+        }
+        li:hover{
+            background-color: #000000;
+        }
+    }
+}
+@media (max-width: 767px){
+    .page{
+        .pagination{
+            height: 32px;
+        }
+    }
+}
+

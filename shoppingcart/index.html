@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>六角西餐廳</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-heart text-primary mr-1"></i>六角血拼買賣</a>
+        <div class="dropdown ml-auto">
+            <button class="btn  btn-secondary  btn-cart btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-shopping-cart fa-2x"></i>
+                <span class="badge badge-danger">+9</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" style="min-width: 300px;">
+                <div class="px-4 py-3">
+                    <h3>已選擇商品</h3>
+                    <table class="table table-striped">
+                        <tr>
+                            <th scope="row">
+                                <a href="#" data-toggle="modal" data-title=" 金牌西裝 1件"
+                                data-target="#delModal" data-backdrop="static"><i class="fas fa-trash-alt"></i></a>
+                            </th>
+                            <td>金牌西裝</td>
+                            <td>1件</td>
+                            <td>$520</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <a href="#" data-toggle="modal" data-title=" 金牌女裝 1件"
+                                data-target="#delModal" data-backdrop="static"><i class="fas fa-trash-alt"></i></a>
+                            </th>
+                            <td>金牌女裝</td>
+                            <td>1件</td>
+                            <td>$480</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <button type="button" class="btn btn-primary btn-block">結帳去</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end">
+        <div class="container">
+            <div class="bg-lighter p-3">
+                <h1 class="display-4">買到剁手手！最後出清</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group sticky-top">
+                    <a href="#pane1" class="list-group-item list-group-item-action active" data-toggle="list">
+                        <i class="fas fa-medal"></i>
+                        金牌專賣店
+                    </a>
+                    <a href="#pane2" class="list-group-item list-group-item-action" data-toggle="list">
+                        <i class="fas fa-gift"></i>
+                        禮品區</a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-photo-video"></i>
+                        影音商品</a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="fas fa-cat"></i>
+                        寵物專用</a>
+                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                        aria-disabled="true">
+                        <i class="fas fa-broom"></i>
+                        居家專用</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="pane1">
+                        <div class="row">
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌西裝</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-outline-secondary">SM</a>
+                                            <a href="#" class="btn btn-outline-secondary">M</a>
+                                            <a href="#" class="btn btn-outline-secondary disabled">L</a>
+                                            <a href="#" class="btn btn-outline-secondary">XL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1481399124169-87493351c8a1?w=1349"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌女裝</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-outline-secondary">SM</a>
+                                            <a href="#" class="btn btn-outline-secondary">M</a>
+                                            <a href="#" class="btn btn-outline-secondary">L</a>
+                                            <a href="#" class="btn btn-outline-secondary">XL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1486250944723-86bca2b15b06?w=1351"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">特工眼鏡</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?w=1350"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">特工西裝</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1485373650022-3ed53f62b8f3?w=634"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">變聲領帶</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-block disabled">缺貨中</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pane2">
+                        <div class="row">
+                            <div class="col-4 mb-4">
+                                <div class="card box-shadow h-100 border-0 text-center">
+                                    <img src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌西裝</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-outline-secondary">SM</a>
+                                            <a href="#" class="btn btn-outline-secondary">M</a>
+                                            <a href="#" class="btn btn-outline-secondary disabled">L</a>
+                                            <a href="#" class="btn btn-outline-secondary">XL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#">金牌專賣店</a></li>
+                <li class="breadcrumb-item active" aria-current="page">金牌西裝</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-4">
+                <div class="sticky-top" style="top: 10px;">
+                    <div class="d-flex justify-content-end align-items-end">
+                        <h2>金牌西裝</h2>
+                        <span class="h2 text-secondary mr-auto">(加拉哈德版)</span>
+                    </div>
+                    <div class="d-flex justify-content-end align-items-end">
+                        <span class="text-secondary text-decoration">售價 $1299</span>
+                        <div class="h3 text-danger ml-auto mb-0">
+                            <small>網路價 NT$</small>
+                            <strong>520</strong>
+                        </div>
+                    </div>
+                    <hr>尺寸:
+                    <div class="btn-group btn-group-toggle btn-group-sm ml-1" data-toggle="buttons">
+                        <label class="btn btn-outline-secondary active">
+                            <input type="radio" name="options" id="option1" checked>SM
+                        </label>
+                        <label class="btn btn-outline-secondary">
+                            <input type="radio" name="options" id="option2">M
+                        </label>
+                        <label class="btn btn-outline-secondary disabled">
+                            <input type="radio" name="options" id="option3">L
+                        </label>
+                        <label class="btn btn-outline-secondary">
+                            <input type="radio" name="options" id="option3">XL
+                        </label>
+                    </div>
+                    <div class="input-group mt-3">
+                        <select name="num" id="num" class="form-control mr-1">
+                            <option value="1">1件</option>
+                            <option value="2">2件</option>
+                            <option value="3">3件</option>
+                        </select>
+                        <a href="#" class="btn btn-primary">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <h2 class="mt-5">帥氣的西裝無人能敵</h2>
+                <p>This is a longer card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <h3 class="text-center mt-5">合身剪裁</h3>
+                <img class="w-100" src="https://images.unsplash.com/photo-1472417583565-62e7bdeda490?w=634" alt="">
+                <h3 class="text-center mt-5">簡單就好</h3>
+                <img class="w-100" src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?w=1500" alt="">
+                <h3 class="text-center mt-5">不佔空間</h3>
+                <img class="w-100" src="https://images.unsplash.com/photo-1475530060488-75a6de1dca6f?w=675" alt="">
+                <div class="bg-gray text-center mt-3 px-3 py-3">
+                    <h2>購物說明</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, at! Totam, exercitationem
+                        repellat. Saepe facere amet expedita perferendis voluptatem dicta dignissimos tempora ut atque,
+                        rerum doloribus? Magni, blanditiis. Assumenda, distinctio!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="h1 text-center my-4 text-secondary">六角血拼 結帳</h2>
+        <div class="form-row text-center">
+            <div class="col-12 col-sm">
+                <div class="alert alert-success border-radius" role="alert">
+                    1.輸入訂單資料
+                </div>
+            </div>
+            <div class="col-12 col-sm">
+                <div class="alert alert-secondary border-radius" role="alert">
+                    2.金流付款
+                </div>
+            </div>
+            <div class="col-12 col-sm">
+                <div class="alert alert-secondary border-radius" role="alert">
+                    3.完成
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-10">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                    <div class="card-header d-flex justify-content-end align-items-end" id="headingOne">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            顯示購物車細節
+                        </button>
+                        <strong class="h4 ml-auto">$520</strong>
+                    </div>
+        
+                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col-9">商品名稱</th>
+                                    <th scope="col-2">數量</th>
+                                    <th scope="col-1">小計</th>
+                                </tr>
+                            </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#" data-toggle="modal" data-title=" 金牌西裝 1件"
+                                    data-target="#delModal" data-backdrop="static"><i class="fas fa-trash-alt text-secondary mr-2"></i></a>
+                                    <img class="mr-2" src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350" alt="" style="width: 100px;">金牌西裝</td>
+                                <td>1件</td>
+                                <td class="text-right">$520</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-right">運費</td>
+                                <td class="text-right">$60</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-right">合計</td>
+                                <td class="text-right">$580</td>
+                            </tr>
+                        </tbody>    
+                        </table>
+                        
+                    </div>
+                    </div>
+            </div>
+            <form action="">
+                <div class="bg-lighter text-center h3 mb-4 mt-4">訂購人資訊</div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputname">姓名</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    </div>
+                    <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputState">國家</label>
+                        <select id="inputCountry" class="form-control">
+                        <option selected>台灣</option>
+                        <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">城市</label>
+                        <select id="inputState" class="form-control">
+                        <option selected>台北市</option>
+                        <option>桃園市</option>
+                        <option>高雄市</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputZip">郵遞區號</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">地址</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="林森北路一段54弄-87號">
+                </div>
+                <div class="form-row justify-content-end pb-5">
+                    <div class="form-group">
+                        <a href="#" class="btn btn-secondary">繼續購物</a>
+                        <a href="#" class="btn btn-primary">確認付款</a>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>   
+    </div>
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-12">
+                <h2 class="h1 text-secondary text-center mb-3">六角血拼 結帳完成</h2>
+                <div class="alert alert-success text-center border-radius" role="alert">
+                    完成
+                </div>
+            </div>
+            <h3 class="col-12 text-center mt-3">購買資訊</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col-9">商品名稱</th>
+                        <th scope="col-2">數量</th>
+                        <th scope="col-1">小計</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        
+                        <img class="mr-2" src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350" alt="" style="width: 100px;">金牌西裝</td>
+                    <td>1件</td>
+                    <td class="text-right">$520</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-right">運費</td>
+                    <td class="text-right">$60</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-right">合計</td>
+                    <td class="text-right">$580</td>
+                </tr>
+            </tbody>    
+            </table>
+            <h3 class="col-12 text-center">個人資料</h3>
+            <table class="table">
+                <tr>
+                    <th>Email</th>
+                    <td>ag3456***@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>姓名</th>
+                    <td>咬 * 手手</td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td>987654***</td>
+                </tr>
+                <tr>
+                    <th>地址</th>
+                    <td>重慶南路一段122號</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="text-center py-4">
+        <p class="text-secondary">© Copright 2017 六角血拼賣賣
+            <a href="#" class="text-info ml-2">Instagrame</a>
+            <a href="#" class="text-info ml-2">Facebook</a>
+            <a href="#" class="text-info ml-2">About</a>
+        </p>
+        <p class="text-secondary">Made with Bootstrap4</p>
+    </footer>
+
+    <!-- 下拉選單-刪除-Modal -->
+<div class="modal fade" id="delModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p>是否確認刪除訂單?</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary " data-dismiss="modal">否</button>
+        <button type="button" class="btn btn-outline-danger">是</button>
+    </div>
+    </div>
+</div>
+</div>
+<script>
+    $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+
+
+    $('#delModal').on('show.bs.modal', function (event) {
+        var btn = $(event.relatedTarget);
+        var title = btn.data('title');
+
+        var modal = $(this);
+        modal.find('.modal-title').text('確認刪除' + title)
+    })
+    });
+</script>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

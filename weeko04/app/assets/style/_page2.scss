@@ -1,0 +1,177 @@
+.banner-page2{
+    ul{
+        display: flex;
+        li{
+            width: 50%;
+            
+        }
+        li:first-child{
+            background-image: url(../images/collection/banner-1200-1.png);
+            max-width: 948px;
+            height: 309px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 2%;
+        }
+        li:last-child{
+            background-image: url(../images/collection/banner-1200-2.png);
+            max-width: 948px;
+            height: 309px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+    }  
+}
+@media (max-width: 992px){
+    .banner-page2{
+        ul{
+            li:first-child{
+                background-image: url(../images/collection/banner-768.png);
+                margin-right: 0%;
+            }
+            li:last-child{
+                background-image: url(../images/collection/banner-768-2.png);
+            }
+        
+        }
+    }
+}
+@media (max-width: 475px){
+    .banner-page2{
+        ul{
+            li:first-child{
+                background-image: url(../images/collection/80.png);
+                height: 144px;
+            }
+            li:last-child{
+                background-image: url(../images/collection/15.png);
+                height: 144px;
+            }
+        
+        }
+    }
+}
+.page2-card{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        width: 31%;
+        margin-right: 2%;
+        margin-bottom: 8.666%;
+    }
+    li:nth-child(1),li:nth-child(4){
+        .card-header{
+            background-image: url(../images/collection/left-1200.png);
+            height: 164px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    li:nth-child(2),li:nth-child(5){
+        .card-header{
+            background-image: url(../images/collection/center-1200.png);
+            height: 164px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    li:nth-child(3),li:nth-child(6){
+        .card-header{
+            background-image: url(../images/collection/right-1200.png);
+            height: 164px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    li:nth-child(7),li:nth-child(9),li:nth-child(11){
+        display: none;
+        .card-header{
+            background-image: url(../images/collection/left-1200.png);
+            height: 164px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    li:nth-child(8),li:nth-child(10),li:nth-child(12){
+        display: none;
+        .card-header{
+            background-image: url(../images/collection/center-1200.png);
+            height: 164px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+        p{
+            font-size: 24px;
+        }
+    .color{
+        display: flex;
+        margin-right: auto;
+    }
+    .square-dark{
+        width: 24px;
+        height: 24px;
+        background-color:$page1-color;
+        margin-right: 8px;
+    }
+    .square-light{
+        width: 24px;
+        height: 24px;
+        background-color:$page1-color-light;
+    }
+}
+@media (max-width: 992px){
+    .page2-card{
+        li{
+            width: 48%;
+        }
+        li:nth-child(3),li:nth-child(6){
+        display: none;
+        }
+        li:nth-child(7),li:nth-child(9),li:nth-child(11){
+            display: block;
+        }
+        li:nth-child(8),li:nth-child(10),li:nth-child(12){
+            display: block;
+        }
+        .card-header{
+            background-image: url(../images/combi/16-1.png);
+        }
+        .card-body{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            p:nth-child(2){
+                text-align: right;
+            }
+        }
+            p{
+                width: 50%;
+            }
+    }
+}
+@media (max-width: 767px){
+    .page2-card{
+        li{
+            width: 100%;
+            margin-right: 0;
+        }
+        li:nth-child(3){
+            display: block;
+        }
+        li:nth-child(4),li:nth-child(5),li:nth-child(7),li:nth-child(8),li:nth-child(9),li:nth-child(10),li:nth-child(11),li:nth-child(12){
+            display: none;
+        }
+        .card-body{
+            font-size: 16px;
+        }
+    }
+}

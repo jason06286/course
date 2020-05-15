@@ -1,0 +1,43 @@
+.dropdown-toggle::after{
+    display:none;
+}
+.btn-cart{
+    position: relative;
+}
+.btn-cart .badge{
+    position: absolute;
+    top: 0;
+    right: -2px;
+}
+.dropdown-menu-right{
+    right: 0;
+    left: auto;
+}
+.jumbotron-bg{
+    background-image: url(https://image.freepik.com/free-photo/hand-choosing-white-shirt-from-wardrobe_23-2148304835.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+} 
+.bg-lighter{
+    background-color: rgba(255, 255, 255, .65);
+}
+.box-shadow{
+    box-shadow:0 3px 5px rgba(0, 0, 0,.16);
+    transition: box-shadow .3s ;
+}
+.box-shadow:hover{
+    box-shadow:0 4px 10px rgba(0, 0, 0,.24);
+}
+.bg-gray{
+    background-color:#E0E0E0;
+}
+.btn.disabled{
+    pointer-events: none;
+}
+.text-decoration{
+    text-decoration: line-through;
+}
+.border-radius{
+    border-radius: 50px;
+}

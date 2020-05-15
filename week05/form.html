@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <title>week05 Homework</title>
+</head>
+
+<body>
+    <div class="px-5 py-3">
+    <div class="row">
+        <div class="col-3">
+            <nav class="sidebar py-1 px-5">
+                <h1 class="mb-5 mt-5">
+                    <span class=" material-icons larger primary-dark">brightness_high</span>
+                    ANSWER
+                </h1>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <span class="material-icons">insert_chart</span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <span class="material-icons">forum</span>
+                            Question
+                        </a>
+                    </li>
+                    <li class="nav-item  active">
+                        <a class="nav-link text-dark" href="#">
+                            <span class="material-icons">assignment</span>
+                            Assignment
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html">
+                            <span class="material-icons">video_library</span>
+                            Course
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="form.html">
+                            <span class="material-icons">supervisor_account</span>
+                            Admin
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">
+                            <span class="material-icons">settings</span>
+                            Settings
+                        </a>
+                    </li>
+                </ul>
+                <div class="media down">
+                    <img src="https://picsum.photos/64/64" class="mr-3 rounded-circle" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0">Andy Chen</h5>
+                        <p class="text-secondary">andy0401@mail.com</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-9">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand large" href="#">Assignment</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" data-toggle="modal" data-target="#exampleModal3" class="d-flex btn">
+                    <span class="material-icons primary-dark ">add</span>
+                    <strong class="text-dark">Add New Admin</strong>
+                </a>                        
+            </nav>
+            <div class="card">
+            <table class="table">
+                <thead>
+                    <tr class="font-weight-bolder">
+                        <td class="d-flex" width="50">ID
+                            <span class="material-icons primary-dark">arrow_downward</span>
+                        </td>
+                        <td width="350">Name</td>
+                        <td width="350">Email</td>
+                        <td>Verified</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>#1</th>
+                        <th>Emir Wicks</th>
+                        <th>emir.wicks@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="media px-2 py-2">
+                                                <img src="https://picsum.photos/141/141" class="mr-3" alt="...">
+                                                <div class="media-body">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h5 class="mt-0">#1</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <h5>Admin</h5>
+                                                    <h2>Emir Wicks</h2>
+                                                    <p class="text-secondary">emir.wicks@mail.com</p>
+                                                    <a class="nav-link d-flex justify-content-between" href="#"
+                                                        id="navbarDropdown" role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        <span class="bg-primary-light text-dark">Verified </span>
+                                                        <span class="material-icons primary-dark">expand_more</span>
+                                                    </a>
+                                                    <div class="dropdown-menu min-width333">
+                                                        <div class="px-5 py-4 d-flex  justify-content-between">
+                                                            <button class=" btn btn-outline-danger mr-4 pX-5">Deactivate</button>
+                                                            <button class=" btn btn-success px-3">Edit</button>
+                                                        </div>                                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h2 class="modal-title" id="exampleModalLabel">Edit Admin</h2>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h2>Account</h2>
+                                                <form>
+                                                    <div class="form-row border-bottom-primary-dark">
+                                                        <div class="col-12">
+                                                            <label for="name">Name</label>
+                                                            <input type="text" class="form-control bg-primary-light"
+                                                                id="name" placeholder="Emir Wicks">
+                                                        </div>
+                                                        <div class="col-12 mb-4">
+                                                            <label for="email">Email</label>
+                                                            <input type="email" class="form-control bg-primary-light"
+                                                                placeholder="emir.wicks@mail.com">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="Verification border-bottom-primary-dark mb-4">
+                                                    <h2>Verification</h2>
+                                                    <div class="d-flex justify-content-between">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="exampleRadios" id="exampleRadios1" value="option1"
+                                                                checked>
+                                                            <label class="form-check-label" for="exampleRadios1">
+                                                                Verified
+                                                            </label>
+                                                        </div>
+                                                        <p>2020/4/12</p>
+                                                    </div>
+                                                    <button class="btn btn-outline-primary btn-block">Send Verification
+                                                        Mail</button>
+                                                </div>
+                                                <div class="AccessLevel border-bottom-primary-dark mb-4">
+                                                    <h2>Access Level</h2>
+                                                    <select name="level" id="level" class="btn-block px-2 py-2">
+                                                        <option value="level1">-Choose access level 1-</option>
+                                                        <option value="level2">-Choose access level 2-</option>
+                                                        <option value="level3">-Choose access level 3-</option>
+                                                    </select>
+                                                </div>
+                                                <div class="CustomAccess">
+                                                    <h2>Custom Access</h2>
+                                                    <div class="input-group mb-3">
+                                                        <input type="checkbox" id="lecture" class="with-24"><label
+                                                            for="lecture"
+                                                            class="mb-0 font-weight-bold ml-2">Lecture</label>
+                                                    </div>
+                                                    <div class="input-group  mb-3">
+                                                        <input type="checkbox" id="Coupon" class="with-24"><label
+                                                            for="Coupon"
+                                                            class="mb-0 font-weight-bold ml-2">Coupon</label>
+                                                    </div>
+                                                    <div class="input-group  mb-3">
+                                                        <input type="checkbox" id="Message" class="with-24"><label
+                                                            for="Message"
+                                                            class="mb-0 font-weight-bold ml-2">Message</label>
+                                                    </div>
+                                                    <div class="input-group  mb-3">
+                                                        <input type="checkbox" id="Setting" class="with-24"><label
+                                                            for="lecture"
+                                                            class="mb-0 font-weight-bold ml-2">Setting</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="checkbox" id="task menu" class="with-24"><label
+                                                            for="task menu" class="mb-0 font-weight-bold ml-2">Task
+                                                            Menu</label>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-success"
+                                                    data-dismiss="modal">Cancel</button>
+                                                <button type="button"
+                                                    class="btn btn-success bg-primary-dark">Add</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#2</th>
+                        <th>Zaina Goldsmith</th>
+                        <th>zaina.goldsmith@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#3</th>
+                        <th>Mahima Lopez</th>
+                        <th>Mahima.Lopez@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#4</th>
+                        <th>Pharrell Murray</th>
+                        <th>Pharrell.Murray@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#5</th>
+                        <th>Annika Mcbride</th>
+                        <th>Annika.Mcbride@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#6</th>
+                        <th>Fatimah Clark</th>
+                        <th>Fatimah.Clark@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#7</th>
+                        <th>Klaudia Rhodes</th>
+                        <th>Klaudia.Rhodes@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#8</th>
+                        <th>Tillie Lucero</th>
+                        <th>Tillie.Lucero@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#9</th>
+                        <th>Sabrina Stephenson</th>
+                        <th>Sabrina.Stephenson@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#10</th>
+                        <th>Annie Smith</th>
+                        <th>Annie.Smith@mail.com</th>
+                        <th class="d-flex justify-content-between">
+                            <p>Yes</p>
+                            <div class="modal-group d-flex">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal2">
+                                    <span class="material-icons text-dark">remove_red_eye</span>
+                                </button>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal3">
+                                    <span class="material-icons text-dark">edit</span>
+                                </button>
+                            </div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="d-flex justify-content-end px-5 ">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link primary-dark" href="index.html" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link primary-dark" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link  primary-dark" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link  primary-dark" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link  primary-dark" href="form.html" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
