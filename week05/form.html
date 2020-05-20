@@ -16,8 +16,7 @@
 </head>
 
 <body>
-    <div class="px-5 py-3">
-    <div class="row">
+    <div class="row no-gutters">
         <div class="col-3">
             <nav class="sidebar py-1 px-5">
                 <h1 class="mb-5 mt-5">
@@ -162,31 +161,39 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <h2>Account</h2>
+                                                <label for="name" class="h2">Acount</label>
                                                 <form>
                                                     <div class="form-row border-bottom-primary-dark">
                                                         <div class="col-12">
+                                                            <div class="form-group">
+                                                            </div>
                                                             <label for="name">Name</label>
                                                             <input type="text" class="form-control bg-primary-light"
-                                                                id="name" placeholder="Emir Wicks">
+                                                                id="name" placeholder="Emir Wicks">                                           
                                                         </div>
                                                         <div class="col-12 mb-4">
-                                                            <label for="email">Email</label>
-                                                            <input type="email" class="form-control bg-primary-light"
-                                                                placeholder="emir.wicks@mail.com">
+                                                            <div class="form-group">
+                                                                <label for="email">Email</label>
+                                                                <input type="email" id="email" class="form-control bg-primary-light"
+                                                                    placeholder="emir.wicks@mail.com">
+                                                            </div>                                          
                                                         </div>
                                                     </div>
                                                 </form>
                                                 <div class="Verification border-bottom-primary-dark mb-4">
-                                                    <h2>Verification</h2>
+                                                    <label class="h2" for="exampleRadios1">
+                                                        Verified
+                                                    </label>
                                                     <div class="d-flex justify-content-between">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="radio"
+                                                            <div class="form-group">
+                                                                <input class="form-check-input" type="radio"
                                                                 name="exampleRadios" id="exampleRadios1" value="option1"
                                                                 checked>
                                                             <label class="form-check-label" for="exampleRadios1">
                                                                 Verified
                                                             </label>
+                                                            </div>                                                           
                                                         </div>
                                                         <p>2020/4/12</p>
                                                     </div>
@@ -194,15 +201,15 @@
                                                         Mail</button>
                                                 </div>
                                                 <div class="AccessLevel border-bottom-primary-dark mb-4">
-                                                    <h2>Access Level</h2>
-                                                    <select name="level" id="level" class="btn-block px-2 py-2">
+                                                    <label for="level" class="h2">Access Level</label>
+                                                    <select name="level" id="level" class="btn-block form-control">
                                                         <option value="level1">-Choose access level 1-</option>
                                                         <option value="level2">-Choose access level 2-</option>
                                                         <option value="level3">-Choose access level 3-</option>
                                                     </select>
                                                 </div>
                                                 <div class="CustomAccess">
-                                                    <h2>Custom Access</h2>
+                                                    <label for="lecture" class="h2">Custom Access</label>
                                                     <div class="input-group mb-3">
                                                         <input type="checkbox" id="lecture" class="with-24"><label
                                                             for="lecture"
@@ -411,7 +418,7 @@
         </div>
         </div>
     </div>
-</div>
+
 
 
     <!-- Optional JavaScript -->
