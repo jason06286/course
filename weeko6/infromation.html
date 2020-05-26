@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>information</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="container py-3">
+        <a class=" fz-24 font-weight-bolder  text-dark " href="index.html">Craftsman</a>
+        <div class="d-block d-md-none mt-3">
+            <a class="btn btn-link btn-block  d-flex  align-items-end text-decoration-none" data-toggle="collapse"
+                href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                <p class="mb-0 mr-auto text-dark">Order Summary</p>
+                <p class="font-weight-bolder mb-0 text-dark">NT$4,760</p>
+                <i class="material-icons text-primary2">keyboard_arrow_down</i>
+            </a>
+            <div class="card border-0 collapse multi-collapse mt-3" id="multiCollapseExample1">
+                <div class="py-3 px-3 card-header">
+                    <div class="media mb-3">
+                        <img src="https://images.unsplash.com/photo-1556207944-1e0033a54801?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                            class="mr-3" alt="..." style="width: 48px;height: 48px;">
+                        <div class="media-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="my-0 font-weight-bolder ">Tatami Cup <span
+                                        class="font-weight-normal ml-2">×1</span></p>
+                                <p>NT$1,080</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img src="https://images.unsplash.com/photo-1530006498959-b7884e829a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"
+                            class="mr-3" alt="..." style="width: 48px;height: 48px;">
+                        <div class="media-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="my-0 font-weight-bolder ">Baifan Bowl <span
+                                        class="font-weight-normal ml-2">×2</span></p>
+                                <p>NT$3,600</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between w-100">
+                        <p>Subtotal</p>
+                        <p>NT$4,680</p>
+                    </div>
+                    <div class="d-flex justify-content-between w-100">
+                        <p>Shipping</p>
+                        <p>NT$80</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="font-weight-bolder h3">Total</p>
+                        <p class="font-weight-bolder h3">NT$4,760</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb" class="my-4  bg-0 ">
+            <ol class="breadcrumb bg-transparent">
+                <li class="breadcrumb-item font-weight-bolder"><a href="#" class="text-primary2" data-toggle="modal"
+                        data-target="#cart">Cart </a></li>
+                <li class="breadcrumb-item font-weight-bolder " aria-current="page"><a href="infromation.html"
+                        class="text-dark">Information</a></li>
+                <li class="breadcrumb-item "> <a href="payment.html" class="text-secondary">Payment</a></li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-7 ">
+                <form class="pb-5 border-bottom">
+                    <div class="form-group">
+                        <label for="inputEmail" class="font-weight-bolder ">Contact information</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="form-group mb-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label text-primary2" for="gridCheck">
+                                Keep me up to date on news and special offers
+                            </label>
+                        </div>
+                    </div>
+                    <label for="name" class="font-weight-bolder ">Shipping address</label>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <select name="Country/Region" id="counrty" value="Country/Region" class=" form-control">
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Korea">Korea</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <select name="City" id="City" value="City" class=" form-control">
+                                <option value="Taipei">Taipei</option>
+                                <option value="Taichung">Taichung</option>
+                                <option value="Kaohsiung">Kaohsiung</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mb-5">
+                        <input type="text" class="form-control" id="address" placeholder="Address">
+                    </div>
+                    <div class="form-row d-flex align-items-center ">
+                        <div class="col-md-6 d-none d-md-block">
+                            <a href="#" class="text-primary2 d-flex align-items-center" data-toggle="modal"
+                                data-target="#cart">
+                                <i class="material-icons">keyboard_arrow_left</i>
+                                Return to cart
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <a href="payment.html" class="btn btn-lg  btn-primary2 btn-block wh-226">
+                                Continue to payment
+                            </a>
+                        </div>
+                        <div class="col-12 d-block d-md-none">
+                            <a href="#" class="text-primary2 d-flex align-items-center justify-content-center"
+                                data-toggle="modal" data-target="#cart">
+                                <i class="material-icons">keyboard_arrow_left</i>
+                                Return to cart
+                            </a>
+                        </div>
+                    </div>
+                </form>
+                <ul class="d-flex list-unstyled py-3">
+                    <li>
+                        <a href="#" class="text-secondary mr-3">
+                            Purchase Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary mr-3">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary">
+                            Terms & Conditions
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 d-none d-md-block">
+                <a class="btn btn-link btn-block  text-center" data-toggle="collapse" href="#multiCollapseExample1"
+                    role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                    <span class="material-icons">keyboard_arrow_down</span>
+                </a>
+                <div class="card border-0 collapse multi-collapse mt-3" id="multiCollapseExample1">
+                    <div class="py-3 px-3 card-header">
+                        <div class="media mb-3">
+                            <img src="https://images.unsplash.com/photo-1556207944-1e0033a54801?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                                class="mr-3" alt="..." style="width: 48px;height: 48px;">
+                            <div class="media-body">
+                                <div class="d-flex justify-content-between">
+                                    <p class="my-0 font-weight-bolder ">Tatami Cup <span
+                                            class="font-weight-normal ml-2">×1</span></p>
+                                    <p>NT$1,080</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <img src="https://images.unsplash.com/photo-1530006498959-b7884e829a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"
+                                class="mr-3" alt="..." style="width: 48px;height: 48px;">
+                            <div class="media-body">
+                                <div class="d-flex justify-content-between">
+                                    <p class="my-0 font-weight-bolder ">Baifan Bowl <span
+                                            class="font-weight-normal ml-2">×2</span></p>
+                                    <p>NT$3,600</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between w-100">
+                            <p>Subtotal</p>
+                            <p>NT$4,680</p>
+                        </div>
+                        <div class="d-flex justify-content-between w-100">
+                            <p>Shipping</p>
+                            <p>NT$80</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between w-100">
+                            <p class="font-weight-bolder h3">Total</p>
+                            <p class="font-weight-bolder h3">NT$4,760</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div class="modal" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cart List <small class="text-primary2 align-top ml-1">3</small></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="media mb-2">
+                        <img src="https://images.unsplash.com/photo-1556207944-1e0033a54801?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                            class="mr-3" alt="..." style="width: 112px;height: 112px;">
+                        <div class="media-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="my-0 font-weight-bolder ">Tatami Cup</p>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <p>NT$1,080 <span class="text-secondary2 ml-2"
+                                    style="text-decoration: line-through;">NT$1,200</span></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="number-box">
+                                    <a href="#" id="remove">
+                                        <span class="material-icons text-dark">
+                                            remove
+                                        </span>
+                                    </a>
+                                    <input type="number" value="1" class="border-none w-25 text-center" id="numInput">
+                                    <a href="#" id="add" onclick="numInput(1)">
+                                        <span class="material-icons text-dark">add</span>
+                                    </a>
+                                </div>
+                                <p class="font-weight-bolder">NT$1,080</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <img src="https://images.unsplash.com/photo-1530006498959-b7884e829a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80"
+                            class="mr-3" alt="..." style="width: 112px;height: 112px;">
+                        <div class="media-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="my-0 font-weight-bolder ">Baifan Bowl</p>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <p>NT$1,800</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="number-box">
+                                    <a href="#" id="remove">
+                                        <span class="material-icons text-dark">
+                                            remove
+                                        </span>
+                                    </a>
+                                    <input type="number" value="2" class="border-none w-25  text-center" id="numInput">
+                                    <a href="#" id="add">
+                                        <span class="material-icons text-dark">add</span>
+                                    </a>
+                                </div>
+                                <p class="font-weight-bolder">NT$3,600</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="text-secondary">Subtotal</p>
+                        <p class="text-secondary">NT$4,680</p>
+                    </div>
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="text-secondary">Shipping</p>
+                        <p class="text-secondary">NT$80</p>
+                    </div>
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="font-weight-bolder">Total</p>
+                        <p class="font-weight-bolder">NT$4,760</p>
+                    </div>
+                    <a href="infromation.html" class="btn btn-primary2 btn-block">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
