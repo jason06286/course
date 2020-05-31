@@ -91,7 +91,7 @@ $theme-colors: map-merge(
     "secondary2":    $gray-500,
     "secondary3":   $black,
     "secondary4":  #F2F2F2,
-
+    "secondary5":  #121212,
   ),
   $theme-colors
 );
@@ -152,6 +152,8 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
+    6: ($spacer *4.5),
+    7: 84px,
   ),
   $spacers
 );
@@ -303,7 +305,7 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
+$h1-font-size:                $font-size-base * 3 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
