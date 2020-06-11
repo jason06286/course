@@ -1,0 +1,31 @@
+.absolute-y{
+    top: 0;
+    bottom: 0;
+}
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}
+.border-white{
+    border: 1px solid #ffffff;
+}
+.font-size-small{
+    font-size: 0.875rem; 
+}
+.font-size-md-small{
+    @media (max-width: 767px) {
+        font-size: 0.875rem; 
+    }
+}
+.line-through{
+    text-decoration: line-through;
+}
+.position-bottom{
+    bottom: 0;
+}
+.vertical-align-bottom{
+    vertical-align: bottom;
+}
+.vertical-align-center{
+    vertical-align: center;
+}
