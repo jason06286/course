@@ -11636,6 +11636,14 @@ a.text-secondary2:hover, a.text-secondary2:focus {
   background-image: url("https://images.unsplash.com/photo-1583845112203-29329902332e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
 }
 
+.bg-lightBlack {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-gray {
+  color: #FFFFFF98;
+}
+
 .circle {
   width: 16px;
   height: 16px;
@@ -11792,18 +11800,18 @@ a.text-secondary2:hover, a.text-secondary2:focus {
 }
 
 .mt-xl {
-  margin-top: 63%;
+  margin-top: 70%;
 }
 
 @media (min-width: 376px) {
   .mt-xl {
-    margin-top: 50%;
+    margin-top: 55%;
   }
 }
 
 @media (min-width: 576px) {
   .mt-xl {
-    margin-top: 30%;
+    margin-top: 40%;
   }
 }
 
@@ -11871,14 +11879,14 @@ a.text-secondary2:hover, a.text-secondary2:focus {
 }
 
 .position-center {
-  bottom: -60%;
+  bottom: -70%;
   left: 0;
   right: 0;
 }
 
 @media (min-width: 768px) {
   .position-center {
-    bottom: -60%;
+    bottom: -70%;
     left: 3%;
     right: 3%;
   }
@@ -11887,8 +11895,8 @@ a.text-secondary2:hover, a.text-secondary2:focus {
 @media (min-width: 992px) {
   .position-center {
     bottom: -15%;
-    left: 20%;
-    right: 20%;
+    left: 5%;
+    right: 5%;
   }
 }
 

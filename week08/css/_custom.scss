@@ -69,6 +69,12 @@
 }
 
 // bg-item
+.bg-lightBlack{
+    background-color:rgba(0,0,0,.5);
+}
+.color-gray{
+    color: #FFFFFF98;
+}
 .circle{
     width: 16px;
     height: 16px;
@@ -177,12 +183,12 @@
     border-bottom:1px solid #6C51E2;
 }
 .mt-xl{
-    margin-top: 63%;
+    margin-top: 70%;
     @media (min-width: 376px) { 
-        margin-top: 50%;
+        margin-top: 55%;
     } 
     @media (min-width: 576px) { 
-        margin-top: 30%;
+        margin-top: 40%;
     }
     @media (min-width: 768px) {
         margin-top: 30%;
@@ -227,18 +233,18 @@
     }
 }
 .position-center{
-    bottom:-60%;
+    bottom:-70%;
     left: 0;
     right: 0;
     @media (min-width: 768px) {
-        bottom:-60%;
+        bottom:-70%;
         left:3%;
         right:3%;
     }
     @media (min-width: 992px) { 
         bottom: -15%;
-        left: 20%;
-        right: 20%;
+        left: 5%;
+        right: 5%;
     }
 }
 .rounded-md{
