@@ -1,0 +1,26 @@
+.vertical-align-bottom{
+    vertical-align: bottom;
+}
+.bg-cover{
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+}
+.bg-light-dark{
+    background-color: rgba($color: #000000, $alpha: .6);
+}
+.bg-green{
+    background-image: linear-gradient(#00654c,#008261,#009671);
+}
+.bg-item1{
+    background-image: url(../img/bg_index.png);
+}
+.bg-item2{
+    background-image: url(../img/bg_course.png);
+}
+.bg-item3{
+    background-image: url(../img/bg_QA.png);
+}
+.box-shnadow{
+    box-shadow: rgba($color: gray, $alpha: .6) 3px 5px
+}
