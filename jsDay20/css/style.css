@@ -88,6 +88,12 @@ a {
           align-items: center;
 }
 
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .text-white {
   color: white;
 }
@@ -102,6 +108,14 @@ a {
 
 .logo {
   text-decoration: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
 }
 
 h1 {
@@ -145,6 +159,15 @@ h1 {
   background-color: #3D82AD;
   border: 1px solid #B1D7FB;
   padding: 7px 25px;
+  margin-right: 20px;
+}
+
+.average {
+  color: white;
+  background-color: #3D82AD;
+  border: 1px solid #B1D7FB;
+  padding: 7px 25px;
+  margin-right: 20px;
 }
 
 h2 {
@@ -164,6 +187,35 @@ h2 {
 .list li h3 {
   margin-bottom: 8px;
   font-weight: 600;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal p {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: red;
+}
+
+.clear {
+  margin-left: 20px;
+  margin-top: 10%;
+}
+
+.clear span {
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 .blue {
