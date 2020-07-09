@@ -60,7 +60,7 @@ function caculate() {
 }
 //把資料加入到data
 function addData(status,bmi) {
-    data.push(
+    data.unshift(
         {
             height:heightDom.value,
             weight:weightDom.value,
