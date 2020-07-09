@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>購物車</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <!--layout topmenu start -->
+<header class="position-absolute top">
+  <div class="bg-dark topmenu">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <h1><a href="index.html" class="text-white">六角西餐廳</a></h1>
+        <ul class="d-flex">
+          <li><a href="cart.html" class="text-white">購物</a></li>
+          <li><a href="login.html" class="text-white">登入</a></li>
+          <li><a href="index.html#map" class="text-white">地圖</a></li>
+        </ul>
+        <!-- ham -->
+            <a href="#" class="ham text-white">
+              <span class="material-icons">
+                menu
+              </span>
+            </a>
+        </ul>
+      </div>
+    </div>
+    </div>
+</header>
+  <!--layout topmenu end-->
+  <!--layout banner start -->
+<section class="position-relative mb-5">
+    <div class="bg-cover bg-item1">
+      <div class="container h-100">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="bg-light banner-text">
+            <h2 class="text-white">咬一口就無法忘懷的漢堡</h2>
+            <p class="text-white text-align-center">七夕絕對無法錯過的好滋味<br>
+              <span class="material-icons vertical-align-bottom">restaurant</span>
+              六角大漢堡 
+              <span class="material-icons vertical-align-bottom">restaurant</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ham-list -->
+    <ul class="jq-list position-absolute">
+      <li><a href="cart.html" class="text-white">購物</a></li>
+      <li><a href="login.html" class="text-white">登入</a></li>
+      <li><a href="index.html#map" class="text-white">地圖</a></li>
+    </ul>
+</section>
+  <!--layout banner end -->
+<!-- -------- layout--------- -->
+<!--cart  start -->
+<section class="mx-5 mb-5">
+    <div class="container">
+        <div class="d-flex d-sm-block">
+            <!-- cart sidebar start -->
+            <div class="side-bar">
+                <h2><span class="material-icons vertical-align-bottom">
+                    eco
+                    </span>
+                    線上訂購美食
+                </h2>
+                <ul>
+                    <li><a href="#">全部 (23)</a></li>
+                    <li><a href="#">只愛吃薯條 (18)</a></li>
+                    <li><a href="#">加熱就可食 (1)</a></li>
+                    <li><a href="#" >不敗漢堡系列 (4)</a></li>
+                </ul>
+            </div>
+            <div class="cart-content">
+                <!-- cart sidebar end -->
+                <div class="d-flex align-items-center d-sm-block mb-5">
+                    <!-- cart cart start -->
+                    <div class="search position-relative">
+                        <input type="text" id="search" >
+                        <label for="search">
+                            <span class="material-icons text-white search-icon position-absolute ">
+                            search
+                            </span>
+                        </label>
+                    </div>
+                    <div class="d-flex justify-content-sm-end">
+                        <a href="#" class="text-primary">結帳去</a>
+                        <a href="#" class="text-primary position-relative">
+                            <span class="material-icons cart">shopping_cart</span>
+                            <span class="cart-num">1</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- cart cart end -->
+                <div class="d-flex flex-wrap d-sm-block">
+                    <div class="cart-card">
+                        <div class="card-header bg-cover bg-item3 position-relative">
+                            <span class="material-icons position-absolute top text-white">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                            <h3>經典漢堡套餐</h3>
+                            <p>Classic Hamburger Package</p>
+                            <span>$120 </span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-outline-orange">
+                                <span class="material-icons  vertical-align-bottom">shopping_cart</span>
+                                加入購物車
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-card">
+                        <div class="card-header bg-cover bg-item4 position-relative">
+                            <span class="material-icons position-absolute top text-white">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                            <h3>英俊香腸</h3>
+                            <p>Handsome Sausage</p>
+                            <span>$1,024 </span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-outline-orange">
+                                <span class="material-icons  vertical-align-bottom">shopping_cart</span>
+                                加入購物車
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-card">
+                        <div class="card-header bg-cover bg-item5 position-relative">
+                            <span class="material-icons position-absolute top text-white">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                            <h3>漢堡兄弟</h3>
+                            <p>Hamburg Brothers</p>
+                            <span>$792  </span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-outline-orange">
+                                <span class="material-icons  vertical-align-bottom">shopping_cart</span>
+                                加入購物車
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cart-card">
+                        <div class="card-header bg-cover bg-item6 position-relative">
+                            <span class="material-icons position-absolute top text-white">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="card-body  d-flex justify-content-center align-items-center flex-column">
+                            <h3>完美願望</h3>
+                            <p>Dragon Ball Package</p>
+                            <span>$999,999 </span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn-outline-orange">
+                                <span class="material-icons  vertical-align-bottom">shopping_cart</span>
+                                加入購物車
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--cart  end -->
+<!-- -------- layout--------- -->
+<!--layout footer start -->
+<footer class="pd-5">
+  <div class="container">
+    <div class="d-flex">
+      <div class="footer-text">
+        <h2>關於 六角西餐廳</h2>
+        <p>Curabitur lobortis id lorem id bibndum. <br>
+            Ut id consectetur magna. Quisque <br>  
+            volutpat augue enim, pulvinar lobortis <br> 
+            nibh lacinia at. </p>
+      </div>
+      <div class="footer-text">
+        <h2>聯絡方式</h2>
+          <ul>
+            <li>•	高雄市中正五路到底</li>
+            <li>•	+886 886 886</li>
+            <li>•	service@hexschool.com</li>
+          </ul>
+      </div>
+      <div class="footer-logo">
+        <a href="index.html">
+          <img src="assets/images/logo_l(null).svg" alt="">
+        </a>
+        <div class="d-flex">
+          <a href="#" class="text-primary">
+            <span class="material-icons ">email</span>
+          </a>
+          <a href="#" class="text-primary">
+            <span class="material-icons ">create</span>
+          </a>
+          <a href="#" class="text-primary">
+            <span class="material-icons ">phone_iphone</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--layout footer end -->
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
