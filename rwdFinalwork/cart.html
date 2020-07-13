@@ -5,23 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name='description' content='大俠愛吃漢堡包純正牛肉真是好香港市民添口福吃完就是乖寶寶' />
+  <meta property="og:title" content="大俠愛吃漢堡堡" />
+  <meta property="og:description" content="大俠愛吃漢堡包純正牛肉真是好香港市民添口福吃完就是乖寶寶">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.hexschool.com/" />
+  <meta property="og:image" content="https://blog.pylin.org/wp-content/uploads/2013/08/DSC00555.jpg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <link rel="icon" href="https://icon-library.com/images/wolf-icon-png/wolf-icon-png-7.jpg" type="image/x-icon" />
   <title>購物車</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
+  
 </head>
 
 <body>
   <!--layout topmenu start -->
-<header class="position-absolute top">
+<header class="position-absolute top ">
   <div class="bg-dark topmenu">
     <div class="container">
       <div class="d-flex justify-content-between">
         <h1><a href="index.html" class="text-white">六角西餐廳</a></h1>
         <ul class="d-flex">
-          <li><a href="cart.html" class="text-white">購物</a></li>
-          <li><a href="login.html" class="text-white">登入</a></li>
-          <li><a href="index.html#map" class="text-white">地圖</a></li>
+          <li><a href="cart.html" class="text-white d-blcok">購物</a></li>
+          <li><a href="login.html" class="text-white d-blcok">登入</a></li>
+          <li><a href="index.html#map" class="text-white d-blcok">地圖</a></li>
         </ul>
         <!-- ham -->
             <a href="#" class="ham text-white">
@@ -53,9 +63,9 @@
     </div>
     <!-- ham-list -->
     <ul class="jq-list position-absolute">
-      <li><a href="cart.html" class="text-white">購物</a></li>
-      <li><a href="login.html" class="text-white">登入</a></li>
-      <li><a href="index.html#map" class="text-white">地圖</a></li>
+      <li><a href="cart.html" class="text-white d-block">購物</a></li>
+      <li><a href="login.html" class="text-white d-block">登入</a></li>
+      <li><a href="index.html#map" class="text-white d-block">地圖</a></li>
     </ul>
 </section>
   <!--layout banner end -->
@@ -65,17 +75,17 @@
     <div class="container">
         <div class="d-flex d-sm-block">
             <!-- cart sidebar start -->
-            <div class="side-bar">
+            <div class="side-bar"data-aos="flip-left">
                 <h2><span class="material-icons vertical-align-bottom">
                     eco
                     </span>
                     線上訂購美食
                 </h2>
                 <ul>
-                    <li><a href="#">全部 (23)</a></li>
-                    <li><a href="#">只愛吃薯條 (18)</a></li>
-                    <li><a href="#">加熱就可食 (1)</a></li>
-                    <li><a href="#" >不敗漢堡系列 (4)</a></li>
+                    <li><a href="#" class="d-block">全部 (23)</a></li>
+                    <li><a href="#" class="d-block">只愛吃薯條 (18)</a></li>
+                    <li><a href="#" class="d-block">加熱就可食 (1)</a></li>
+                    <li><a href="#" class="d-block" >不敗漢堡系列 (4)</a></li>
                 </ul>
             </div>
             <div class="cart-content">
@@ -99,10 +109,10 @@
                     </div>
                 </div>
                 <!-- cart cart end -->
-                <div class="d-flex flex-wrap d-sm-block">
-                    <div class="cart-card">
+                <ul class="d-flex flex-wrap d-sm-block">
+                    <li class="cart-card"data-aos="flip-left">
                         <div class="card-header bg-cover bg-item3 position-relative">
-                            <span class="material-icons position-absolute top text-white">
+                            <span class="material-icons position-absolute  top cursor-pointer text-white">
                                 favorite_border
                                 </span>
                         </div>
@@ -117,10 +127,10 @@
                                 加入購物車
                             </a>
                         </div>
-                    </div>
-                    <div class="cart-card">
+                    </li>
+                    <li class="cart-card"data-aos="flip-left">
                         <div class="card-header bg-cover bg-item4 position-relative">
-                            <span class="material-icons position-absolute top text-white">
+                            <span class="material-icons position-absolute  top cursor-pointer text-white">
                                 favorite_border
                                 </span>
                         </div>
@@ -135,10 +145,10 @@
                                 加入購物車
                             </a>
                         </div>
-                    </div>
-                    <div class="cart-card">
+                    </li>
+                    <li class="cart-card"data-aos="flip-left">
                         <div class="card-header bg-cover bg-item5 position-relative">
-                            <span class="material-icons position-absolute top text-white">
+                            <span class="material-icons position-absolute  top cursor-pointer text-white">
                                 favorite_border
                                 </span>
                         </div>
@@ -153,10 +163,10 @@
                                 加入購物車
                             </a>
                         </div>
-                    </div>
-                    <div class="cart-card">
+                    </li>
+                    <li class="cart-card"data-aos="flip-left">
                         <div class="card-header bg-cover bg-item6 position-relative">
-                            <span class="material-icons position-absolute top text-white">
+                            <span class="material-icons position-absolute  top cursor-pointer text-white">
                                 favorite_border
                                 </span>
                         </div>
@@ -171,8 +181,8 @@
                                 加入購物車
                             </a>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             
         </div>
@@ -194,33 +204,43 @@
       <div class="footer-text">
         <h2>聯絡方式</h2>
           <ul>
-            <li>•	高雄市中正五路到底</li>
-            <li>•	+886 886 886</li>
-            <li>•	service@hexschool.com</li>
+            <li class="list-disc">高雄市中正五路到底</li>
+            <li class="list-disc">+886 886 886</li>
+            <li class="list-disc">service@hexschool.com</li>
           </ul>
       </div>
       <div class="footer-logo">
         <a href="index.html">
           <img src="assets/images/logo_l(null).svg" alt="">
         </a>
-        <div class="d-flex">
-          <a href="#" class="text-primary">
-            <span class="material-icons ">email</span>
-          </a>
-          <a href="#" class="text-primary">
-            <span class="material-icons ">create</span>
-          </a>
-          <a href="#" class="text-primary">
-            <span class="material-icons ">phone_iphone</span>
-          </a>
+        <ul class="d-flex">
+          <li>
+            <a href="#" class="text-primary">
+              <span class="material-icons ">email</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-primary">
+              <span class="material-icons ">create</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-primary">
+              <span class="material-icons ">phone_iphone</span>
+            </a>
+          </li>
         </div>
-      </div>
+      </ul>
     </div>
   </div>
 </footer>
 <!--layout footer end -->
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
