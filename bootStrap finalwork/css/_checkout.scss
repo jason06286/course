@@ -1,0 +1,58 @@
+.solid{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    background-color:#3F5D45;
+    z-index: 1;
+}
+.solid2{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: relative;
+    background-color:#ffffff;
+    z-index: 1;
+}
+.solid1{
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    right: 0;
+    left: 3px;
+}
+.checkout-right{
+    right: 0 ;
+    left: 43.5%;
+    top: 0;
+    bottom: 69%;
+    @media (min-width:321px) {
+        right: 0 ;
+    left: 40%;
+    top: 0;
+    bottom: 69%;
+    }
+}
+.success-right{
+    border-bottom: 2px solid #3F5D45;
+    right: 0 ;
+    left: 2%;
+    top: 0;
+    bottom: 50%;
+    @media (min-width:321px) {
+        right: 0 ;
+        left: 2%;
+        top: 0;
+        bottom: 50%;
+    }
+}
+.bg-success{
+    background-image: url(https://bit.ly/2P7GhNd);
+    height: 460px;
+}

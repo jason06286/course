@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "variables"; // 複製一份 variable 來覆蓋
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "utilize"; 
+@import "layout"; 
+@import "index"; 
+@import "product"; 
+@import "login"; 
+@import "cart"; 
+@import "checkout"; 

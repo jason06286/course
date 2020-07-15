@@ -1,0 +1,12 @@
+.login-img{
+    width: 45px;
+    height: 24px;
+    @media (min-width: 425px) { 
+        width: 73px;
+        height: 21px;
+    }
+    @media (min-width: 768px) { 
+        width: 108px;
+        height: 21px;
+    }
+}

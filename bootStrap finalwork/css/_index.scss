@@ -1,0 +1,84 @@
+.bg-item1{
+    background-image: url(https://bit.ly/2OhbMHr);
+    height: 496px;  
+    @media (max-width:425px) {
+        height: 277px;
+    }
+}
+.bg-item2{
+    background-color: rgba($color: #FFE180, $alpha: .8);
+    width: 259.67px;
+    height: 256px;
+    @media (max-width:425px) {
+        width: 125px;
+        height: 180px;
+    }
+}
+.bg-item3{
+    background-color: rgba($color: #3F5D45, $alpha: .8);
+    width: 259.67px;
+    height: 256px;
+    @media (max-width:425px) {
+        width: 125px;
+        height: 180px;
+    }
+}
+.bg-item4{
+    background-image: url(https://bit.ly/2xPn7Eq);
+    height: 250px;
+    @media (min-width: 768px) { 
+        height: 460px;
+    }
+}
+.bg-item5{
+    background-image: url(https://bit.ly/2zzAQS4);
+    height: 250px;
+    @media (min-width: 768px) { 
+        height: 460px;
+    }
+}
+.bg-item6{
+    background-image: url(../img/lg-為什麼選擇了做甜點.svg);
+    width: 88.94px;
+    height: 307.15px;
+}
+.bg-item7{
+    background-image: url(../img/lg-為什麼一定要吃甜點.svg);
+    width: 88.94px;
+    height: 307.15px;
+}
+.bg-item8{
+    background-image: url(https://bit.ly/2zBjQuq);
+    height: 315px;
+}
+.bg-item9{
+    background-image: url(https://bit.ly/2zBDAxX);
+    height: 315px;
+}
+.bg-item10{
+    background-image: url(https://bit.ly/2QbVsVR);
+    height: 315px;
+}
+.border-right-white{
+    border-right: white 2px solid;
+}
+.bottom{
+    left: 25%;
+    right: 25%;
+    bottom: -35%;
+    @media (max-width:425px) {
+        bottom: -60%;
+    }
+    @media (min-width: 1200px) { 
+        left: 34%;
+    }
+}
+.mb-lg{
+    margin-bottom: 50%;
+    @media (min-width: 768px) { 
+        margin-bottom: 30%;
+    }
+        @media (min-width: 992px) { 
+            margin-bottom: 20%;
+        }
+}

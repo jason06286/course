@@ -1,0 +1,25 @@
+// layout.scss start
+.header-logo{
+    width: 200px;
+    height: 40px;
+    @media (max-width:425px) {
+        width: 100px;
+    }
+}
+.footer-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-logo-type{
+    width: 171px;
+    height: 26.6px;
+}
+.footer-fb-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-logo-type2{
+    width: 59.28px;
+    height: 218.69px;
+}
+// layout.scss end
