@@ -27,3 +27,28 @@
 .top{
     left: 80%;
 }
+.jq-list{
+        position: absolute;
+        width: 100%;
+        top: 60%;
+        left: 0;
+        max-height: 0px;
+        transition: all 0.8s;
+        overflow: hidden;
+        z-index: 120;
+        li{
+            background-color: #fff;
+            border:#009671  1px solid ;
+            padding: 5px;
+        }
+        li:hover{
+            background-color:#009671 ;
+            a{
+                color: white ;
+            }
+            
+        }
+}
+.jq-list.active{
+    max-height: 100px;
+}

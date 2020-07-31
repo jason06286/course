@@ -1,8 +1,8 @@
 //list slide
 $(document).ready(function () {
-    $('.jq-list li a').click(function (e) { 
+    $('.jq-down').click(function (e) { 
         e.preventDefault();
-        $(this).parent().find('ul').slideToggle();
+        $(this).parent().find('ul').toggleClass('active');
     });
 });
 
