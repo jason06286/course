@@ -366,6 +366,7 @@ a {
     margin-bottom: 16px; }
   @media (max-width: 767px) {
     .chief-text {
+      padding: 8.48% 0 8.48% 0%;
       width: 100%;
       color: white;
       text-align: center;
@@ -490,7 +491,8 @@ h2 {
     padding: 2%;
     border-bottom: 1px solid #3D1101; }
     .side-bar li a {
-      color: #3D1101; }
+      color: #3D1101;
+      cursor: pointer; }
   .side-bar li:hover {
     background-color: #3d1101; }
     .side-bar li:hover a {
