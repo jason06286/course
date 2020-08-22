@@ -10,8 +10,8 @@ const roomShow=document.querySelector('.room')
 getData()
 function getData(){
     let check=window.location.pathname.split("/");
-    console.log(check[1])
-    if (check[1]!='room.html') {
+    console.log(check)
+    if (check[2]!='room.html') {
         axios.defaults.headers.common.Authorization = `Bearer ${token}`
         axios.get(getUrl)
             .then((res) => {
@@ -19,7 +19,7 @@ function getData(){
             indexRender()
             })
             .catch(err => { console.log("error") })
-    }else if(check[1] ==='room.html'){
+    }else if(check[2] ==='room.html'){
         axios.defaults.headers.common.Authorization = `Bearer ${token}`
         axios.get(`${roomUrl}${location.search.split("?")[1]}`)
             .then((res) => {
