@@ -1,0 +1,13 @@
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+.h-m {
+  height: 300px;
+}
+
+.active {
+  color: brown;
+}
+/*# sourceMappingURL=style.css.map */
