@@ -11,7 +11,7 @@ getData()
 function getData(){
     let check=window.location.pathname.split("/");
     console.log(check)
-    if (check[2]!='room.html') {
+    if (check[3]!='room.html') {
         axios.defaults.headers.common.Authorization = `Bearer ${token}`
         axios.get(getUrl)
             .then((res) => {
@@ -19,7 +19,7 @@ function getData(){
             indexRender()
             })
             .catch(err => { console.log("error") })
-    }else if(check[2] ==='room.html'){
+    }else if(check[3] ==='room.html'){
         axios.defaults.headers.common.Authorization = `Bearer ${token}`
         axios.get(`${roomUrl}${location.search.split("?")[1]}`)
             .then((res) => {
